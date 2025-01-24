@@ -369,7 +369,7 @@
 
 
 
-    <script>
+    {{-- <script>
         document.getElementById("menu-toggle").addEventListener("click", function() {
             let menu = document.getElementById("menu");
             menu.classList.toggle("hidden");
@@ -384,6 +384,55 @@
         }
         menuItems.forEach(item => {
             item.addEventListener('click', changeActiveMenu);
+        });
+    </script> --}}
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
+    <script>
+        // scroll
+        document.addEventListener('DOMContentLoaded', function () {
+            const lenis = new Lenis({
+                lerp: 0.1,
+                smooth: true
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+
+            requestAnimationFrame(raf);
+        });
+        // scroll
+          document.getElementById("menu-toggle").addEventListener("click", function() {
+            let menu = document.getElementById("menu");
+            menu.classList.toggle("hidden");
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            let menuItems = document.querySelectorAll(".menu-item");
+
+            function updateActiveMenu() {
+                let currentPath = window.location.pathname;
+
+                menuItems.forEach(item => {
+                    let link = item.querySelector("a");
+                    let href = link ? new URL(link.href, window.location.origin).pathname : null;
+
+                    item.classList.remove("active");
+
+                    if (href === currentPath || (!link && currentPath === "/")) {
+                        item.classList.add("active");
+                    }
+                });
+            }
+
+            menuItems.forEach(item => {
+                item.addEventListener("click", function() {
+                    menuItems.forEach(i => i.classList.remove("active"));
+                    this.classList.add("active");
+                });
+            });
+
+            updateActiveMenu();
         });
     </script>
 

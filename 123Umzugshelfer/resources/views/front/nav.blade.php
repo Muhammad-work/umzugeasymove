@@ -15,10 +15,10 @@
     <div id="menu"
         class="hidden z-10 md:flex md:gap-8 absolute md:static top-[80px] left-0 w-full md:w-auto bg-white md:bg-transparent md:shadow-none shadow-md">
         <ul class="flex flex-col md:flex-row gap-4 md:gap-2 w-full text-center md:text-left">
-            <li class="text-xl uppercase cursor-pointer menu-item relative active py-3 px-6 md:py-0">Home</li>
-            <li class="text-xl uppercase cursor-pointer menu-item relative py-3 px-6 md:py-0">ÜBER UNS</li>
-            <li class="text-xl uppercase cursor-pointer menu-item relative py-3 px-6 md:py-0">Blog</li>
-            <li class="text-xl uppercase cursor-pointer menu-item relative py-3 px-6 md:py-0">DIENSTLEISTUNGEN</li>
+            <li class="text-xl uppercase cursor-pointer menu-item relative active py-3 px-6 md:py-0"><a href="{{ route('home') }}">Home</a></li>
+            <li class="text-xl uppercase cursor-pointer menu-item relative py-3 px-6 md:py-0"><a href="{{ route('about') }}">ÜBER UNS</a></li>
+            <li class="text-xl uppercase cursor-pointer menu-item relative py-3 px-6 md:py-0"><a href="{{ route('blog') }}">Blog</a></li>
+            <li class="text-xl uppercase cursor-pointer menu-item relative py-3 px-6 md:py-0"><a href="{{ route('service') }}">DIENSTLEISTUNGEN</a></li>
         </ul>
     </div>
 
