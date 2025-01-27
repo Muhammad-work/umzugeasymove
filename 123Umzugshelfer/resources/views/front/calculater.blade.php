@@ -324,6 +324,7 @@
 
                 localStorage.setItem('cost', JSON.stringify(multi));
                 // window.location = '/2/kostenloses-angebot-erhalten';
+                updateCostDisplay();
 
             });
         }
@@ -349,7 +350,6 @@
                 total.textContent = `€ ${cost}`;
             }
         }
-        updateCostDisplay();
 
         next_pagebtn.addEventListener('click', () => {
             second_page.style.display = 'none';
