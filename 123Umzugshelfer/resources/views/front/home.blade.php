@@ -125,7 +125,6 @@
 
     {{-- card section  --}}
 
-
     <section class="w-full min-h-screen  py-6 bg-white">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
@@ -217,7 +216,7 @@
     {{-- Wie erhalte ich Hilfe von 123Umzugshelfer? section --}}
 
     <section class="w-full h-auto bg-white md:py-8 py-4">
-        <h1 class="text-2xl text-center py-8">Wie erhalte ich Hilfe von 123Umzugshelfer?</h1>
+        <h1 class="text-2xl text-center py-8">Wie erhalte ich Hilfe von umzugeasymove?</h1>
         <div
             class="max-w-[90%] md:max-w-[50%] h-auto md:h-[150px] relative flex flex-col md:flex-row mx-auto ps-3 shadow-lg rounded gap-4">
             <div class="w-full md:w-[80%] flex justify-center items-center text-sm md:text-base">
@@ -317,7 +316,7 @@
     {{-- 123Umzugshelfer Erfahrungen section --}}
 
     <section class="w-full min-h-screen bg-[#EEF4F7] p-6">
-        <h1 class="text-3xl text-center py-12 text-[#073360] font-bold">123Umzugshelfer Erfahrungen</h1>
+        <h1 class="text-3xl text-center py-12 text-[#073360] font-bold">umzugeasymove Erfahrungen</h1>
         <div class="w-full h-auto flex flex-wrap justify-center gap-6">
             <div class="w-full sm:w-[350px] h-full p-4 bg-white shadow-xl">
                 <div class="w-full h-[80px] flex justify-between items-center px-2">

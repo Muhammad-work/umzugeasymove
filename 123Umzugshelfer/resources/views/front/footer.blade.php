@@ -1,7 +1,7 @@
 @section('fornt.footer')
 <section class="w-full min-h-[400px] bg-[#042139] p-6 text-white">
     <div class="w-full h-[90px] flex items-center px-10">
-        <img class="md:w-1/5" src="{{ asset('storage/img/logo.svg') }}" alt="">
+        <img class="md:w-1/5" src="{{ asset('storage/img/logo-2.png') }}" alt="">
     </div>
 
     <div class="w-full h-auto bg-[#042139] flex flex-wrap justify-between px-6 md:px-16 gap-6 ">
@@ -23,13 +23,13 @@
                 <li>
                     <h1 class="text-3xl font-bold">Umzug Deutschland</h1>
                 </li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Berlin</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen München</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Hamburg</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Hannover</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Köln</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Leipzig</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Kosten</li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('move') }}">Umzugsunternehmen Berlin</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('munich') }}">Umzugsunternehmen München</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('hamburg') }}">Umzugsunternehmen Hamburg</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('hannover') }}">Umzugsunternehmen Hannover</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('Cologne') }}">Umzugsunternehmen Köln</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('Leipzig') }}">Umzugsunternehmen Leipzig</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('Kosten') }}">Umzugsunternehmen Kosten</a></li>
             </ul>
         </div>
         <div class="w-full sm:w-auto">
@@ -37,12 +37,12 @@
                 <li>
                     <h1 class="text-3xl font-bold">Umzug Deutschland</h1>
                 </li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Düsseldorf</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Frankfurt</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Bremen</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Dresden</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Essen</li>
-                <li class="font-medium cursor-pointer">Umzugsunternehmen Stuttgart</li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('dusseldorf') }}">Umzugsunternehmen Düsseldorf</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('frankfurt') }}">Umzugsunternehmen Frankfurt</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('bremen') }}">Umzugsunternehmen Bremen</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('dresden') }}">Umzugsunternehmen Dresden</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('essen') }}">Umzugsunternehmen Essen</a></li>
+                <li class="font-medium cursor-pointer"><a href="{{ route('stuttgart') }}">Umzugsunternehmen Stuttgart</a></li>
             </ul>
         </div>
         <div class="w-full sm:w-auto">

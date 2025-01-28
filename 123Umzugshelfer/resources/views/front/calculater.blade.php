@@ -41,7 +41,7 @@
         <div class="w-[450px] h-auto bg-white rounded flex flex-col gap-5 py-8 px-4 first_page"
             style="box-shadow: 0px 0px 100px #ccc ">
             <div>
-                <h1 class="text-center text-2xl font-medium text-[#219E3C]">1-2-3 Umzugskosten berechnen</h1>
+                <h1 class="text-center text-2xl font-medium text-[#219E3C]">umzugeasymove berechnen</h1>
             </div>
             <div>
                 <h1 class="text-center text-2xl font-medium text-[red] md:hidden hidden error"></h1>
@@ -87,7 +87,7 @@
             </div>
 
             <div>
-                <h1 class="text-center text-2xl font-medium text-[#219E3C] py-3">1-2-3 Umzugskosten berechnen</h1>
+                <h1 class="text-center text-2xl font-medium text-[#219E3C] py-3">Umzugeasymove berechnen</h1>
             </div>
 
             <div class="w-full h-full  flex flex-col place-items-center ">

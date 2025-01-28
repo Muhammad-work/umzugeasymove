@@ -3,7 +3,7 @@
 <nav class="w-full h-[100px] bg-white flex justify-between items-center px-4 md:px-8 ">
     <!-- Logo -->
     <div class="w-[40%] md:w-[20%]">
-        <img class="w-[90%]" src="{{ asset('storage/img/logo.svg') }}" alt="Logo">
+        <img class="w-[90%]" src="{{ asset('storage/img/logo.png') }}" alt="Logo">
     </div>
 
     <!-- Mobile Menu Button -->

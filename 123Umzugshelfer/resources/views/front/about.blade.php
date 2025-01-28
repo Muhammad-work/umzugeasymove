@@ -37,7 +37,7 @@
 
             <!-- Text Content -->
             <div class="w-full sm:w-[90%] md:w-[45%] flex flex-col gap-4 text-center md:text-left">
-                <h1 class="text-3xl font-medium text-[#425168]">123Umzugshelfer</h1>
+                <h1 class="text-3xl font-medium text-[#425168]">Umzugeasymove</h1>
                 <p class="text-xl text-[#425168]">
                     Heute ist 123 Umzugshelfer seit über 5 Jahren im Geschäft. Der Aufstieg von 123 Umzugshelfer an die
                     Spitze
@@ -75,7 +75,7 @@
                     einen reibungslosen Ablauf Ihres Umzugs.
                 </p>
                 <p class="text-lg text-[#425168]">
-                    123 Umzugshelfer gehört zu den ausgezeichneten Umzugsunternehmen in Detmold. Egal, ob innerhalb der Stadt,
+                    umzugeasymove gehört zu den ausgezeichneten Umzugsunternehmen in Detmold. Egal, ob innerhalb der Stadt,
                     außerhalb oder europaweit – wir sind für Sie da.
                 </p>
                 <p class="text-lg text-[#425168]">
