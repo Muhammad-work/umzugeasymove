@@ -3,7 +3,7 @@
 <nav class="w-full h-[100px] bg-white flex justify-between items-center px-4 md:px-8 ">
     <!-- Logo -->
     <div class="w-[40%] md:w-[20%]">
-        <img class="w-[90%]" src="{{ asset('storage/img/logo.png') }}" alt="Logo">
+        <a href="{{ route('home') }}"><img class="w-[90%]" src="{{ asset('storage/img/logo.png') }}" alt="Logo"></a>
     </div>
 
     <!-- Mobile Menu Button -->
