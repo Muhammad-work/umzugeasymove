@@ -19,16 +19,24 @@
 //     plugins: [],
 // };
 
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//     content: [
+//       "./resources/**/*.blade.php",
+//       "./resources/**/*.js",
+//       "./resources/**/*.vue",
+//     ],
+//     theme: {
+//       extend: {},
+//     },
+//     plugins: [],
+//   }
 
-/** @type {import('tailwindcss').Config} */
-export default {
-    content: [
-      "./resources/**/*.blade.php",
-      "./resources/**/*.js",
-      "./resources/**/*.vue",
+import { defineConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
+export default defineConfig({
+    plugins: [
+        tailwindcss(),
+        // …
     ],
-    theme: {
-      extend: {},
-    },
-    plugins: [],
-  }
+});
