@@ -368,7 +368,6 @@
     </section>
     {{-- 123Umzugshelfer Erfahrungen section --}}
 
-
     <script>
         let calculater = document.querySelector('.calculater');
 
