@@ -2,10 +2,8 @@
 @extends('front.nav')
 @extends('front.footer')
 
-
 @section('front.home')
     {{-- hero section --}}
-
     <section class="w-full h-auto z-1 py-10 bg-white">
         <div class="w-full flex flex-col md:flex-row justify-center gap-6 px-4">
 
@@ -52,15 +50,13 @@
 
             <!-- Right Image Box -->
             <div class="w-full md:w-1/2">
-                <img class="w-full h-full md:h-[400px] rounded-lg shadow-lg" src="{{ asset('storage/img/baner.jpg') }}"
+                <img class="w-full h-full md:h-[400px] rounded-lg shadow-lg" src="{{ asset('storage/img/baner.PNG') }}"
                     alt="Banner">
             </div>
 
         </div>
     </section>
-
     {{-- hero section --}}
-
 
     {{-- Bereits section --}}
     <section class="w-full bg-[#EEF4F7] py-12 ">
@@ -106,12 +102,9 @@
             </div>
         </div>
     </section>
-
     {{-- Bereits section --}}
 
-
     {{-- heding section --}}
-
     <section class="w-full h-full bg-white py-8">
         <div class="md:w-[50%] w-[100%] h-[100px] flex justify-center place-items-center mx-auto  bg-white">
             <h1 class="text-3xl text-center">Wieso sind wir so beliebt? <br>
@@ -121,10 +114,7 @@
     </section>
     {{-- heding section --}}
 
-
-
     {{-- card section  --}}
-
     <section class="w-full min-h-screen  py-6 bg-white">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
@@ -132,7 +122,7 @@
                 <!-- Card 1 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-100 hover-bounce">
-                    <img class="rounded-lg w-full" src="{{ asset('storage/img/c1_1c541_umzugshelfer_op_fafd1.jpg') }}"
+                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-1.jpeg') }}"
                         alt="">
                     <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Stressfreiere Privatumzüge</h1>
                     <p class="mt-3 text-gray-600">Sparen Sie Zeit sowie Nerven und letztlich auch Geld. Wir sind Ihre
@@ -142,7 +132,7 @@
                 <!-- Card 2 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-200 hover-bounce">
-                    <img class="rounded-lg w-full" src="{{ asset('storage/img/p2_op_66945.jpg') }}" alt="">
+                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-2.jpeg') }}" alt="">
                     <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Professionellere Firmenumzüge</h1>
                     <p class="mt-3 text-gray-600">Die Organisation eines Firmenumzugs ist keine einfache Sache. Damit
                         ein nahtloser Übergang möglich wird, planen wir Ihren Firmenumzug detailliert.</p>
@@ -151,7 +141,7 @@
                 <!-- Card 3 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-300 hover-bounce">
-                    <img class="rounded-lg w-full" src="{{ asset('storage/img/c3_op_82f0a.jpg') }}" alt="">
+                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-3.jpeg') }}" alt="">
                     <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Sicherere Seniorenumzüge</h1>
                     <p class="mt-3 text-gray-600">Bequem und ohne Sorgen umziehen – ein Plus mit 123Umzugshelfer.
                         Umziehen geht mit uns ganz einfach.</p>
@@ -160,7 +150,7 @@
                 <!-- Card 4 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-400 hover-bounce">
-                    <img class="rounded-lg w-full" src="{{ asset('storage/img/p1_copy_d5203.jpg') }}" alt="">
+                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-4.jpeg') }}" alt="">
                     <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Schnellere Haushaltsauflösungen</h1>
                     <p class="mt-3 text-gray-600">Damit Sie sich über die Haushaltsauflösung keine Gedanken machen müssen,
                         berät Sie das Team von 123Umzugshelfer gerne bei allen Fragen zur Haushaltsauflösung</p>
@@ -169,7 +159,7 @@
                 <!-- Card 5 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-500 hover-bounce">
-                    <img class="rounded-lg w-full" src="{{ asset('storage/img/c2_op_ecfe5.jpg') }}" alt="">
+                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-5.jpeg') }}" alt="">
                     <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Bessere Lösungen für Behördenumzüge</h1>
                     <p class="mt-3 text-gray-600">Öffentliche Institutionen stehen mit ihren Dienstleistungen jedem Bürger
                         offen. Hierbei können die Umzugskosten auch durch etwaige Behörden übernommen werden.</p>
@@ -178,7 +168,7 @@
                 <!-- Card 6 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-600 hover-bounce">
-                    <img class="rounded-lg w-full" src="{{ asset('storage/img/p3_op_76e63.jpg') }}" alt="">
+                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-6.jpeg') }}" alt="">
                     <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Sicherere Internationale Umzüge</h1>
                     <p class="mt-3 text-gray-600">Jährlich beschließen rund 100.000 Menschen in Deutschland auszuwandern und
                         verlegen ihren Wohnsitz ins Ausland. Das kann sowohl berufliche als auch persönliche Gründe haben.
@@ -188,13 +178,9 @@
             </div>
         </div>
     </section>
-
     {{-- card section  --}}
 
-
-
     {{-- Unsere Serviceleistungen section --}}
-
     <section class="w-full h-[400px] px-4 md:px-8 ">
         <div class="w-full h-full text-center flex flex-col justify-center items-center gap-6">
             <h1 class="text-3xl md:text-4xl text-white font-bold animate-fade-in">Unsere Serviceleistungen</h1>
@@ -209,12 +195,9 @@
             </a>
         </div>
     </section>
-
     {{-- Unsere Serviceleistungen section --}}
 
-
     {{-- Wie erhalte ich Hilfe von 123Umzugshelfer? section --}}
-
     <section class="w-full h-auto bg-white md:py-8 py-4">
         <h1 class="text-2xl text-center py-8">Wie erhalte ich Hilfe von umzugeasymove?</h1>
         <div
@@ -309,12 +292,10 @@
             <span id="line6" class="md:block hidden"></span>
         </div>
     </section>
-
     {{-- Wie erhalte ich Hilfe von 123Umzugshelfer? section --}}
 
 
     {{-- 123Umzugshelfer Erfahrungen section --}}
-
     <section class="w-full min-h-screen bg-[#EEF4F7] p-6">
         <h1 class="text-3xl text-center py-12 text-[#073360] font-bold">umzugeasymove Erfahrungen</h1>
         <div class="w-full h-auto flex flex-wrap justify-center gap-6">
@@ -385,7 +366,6 @@
             </div>
         </div>
     </section>
-
     {{-- 123Umzugshelfer Erfahrungen section --}}
 
 
