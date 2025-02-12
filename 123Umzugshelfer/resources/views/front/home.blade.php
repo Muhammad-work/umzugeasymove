@@ -70,33 +70,40 @@
                 <!-- Card 1 -->
                 <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
                     <img class="w-[40px] mb-4" src="{{ asset('storage/img/msg.png') }}" alt="">
-                    <h2 class="text-2xl font-medium text-[#212529]">Schnell & Einfach</h2>
-                    <p class="text-[#212529] text-sm">Stellen Sie einfach eine Anfrage und erhalten Sie innerhalb von
-                        wenigen Minuten ein individuelles Umzugsangebot per E-Mail.</p>
+                    <h2 class="text-2xl font-medium text-[#212529]">Schnell & Einfach – Ihr Umzugsangebot in Minuten!</h2>
+                    <p class="text-[#212529] text-sm">Stellen Sie ganz unkompliziert eine Anfrage und erhalten Sie innerhalb
+                        weniger Minuten ein maßgeschneidertes Umzugsangebot direkt per E-Mail. Schnell, transparent und ohne
+                        versteckte Kosten!</p>
                 </div>
 
                 <!-- Card 2 -->
                 <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
                     <img class="w-[40px] mb-4" src="{{ asset('storage/img/user.png') }}" alt="">
-                    <h2 class="text-2xl font-medium text-[#212529]">Zuverlässig</h2>
-                    <p class="text-[#212529] text-sm">Dank unseres hoch-technologischen Touren-Planungssystems wird kein
-                        Umzug übersehen. Unser Team begleitet Ihren Umzug vom Start bis Ende in Echtzeit.</p>
+                    <h2 class="text-2xl font-medium text-[#212529]">Zuverlässig & Präzise – Ihr Umzug in sicheren Händen!
+                    </h2>
+                    <p class="text-[#212529] text-sm">Mit unserem hochmodernen Touren-Planungssystem bleibt kein Umzug
+                        unberücksichtigt. Unser erfahrenes Team begleitet Ihren Umzug von Anfang bis Ende in Echtzeit –
+                        zuverlässig, effizient und stressfrei!</p>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
                     <img class="w-[65px] mb-4" src="{{ asset('storage/img/Capture.png') }}" alt="">
-                    <h2 class="text-2xl font-medium text-[#212529]">Flexibel</h2>
-                    <p class="text-[#212529] text-sm">Auch nach der Auftragsabwicklung können wir auf Wunsch Ihren Umzug
-                        verschieben oder Änderungen im Auftrag vornehmen.</p>
+                    <h2 class="text-2xl font-medium text-[#212529]">Flexibel & Kundenorientiert – Ihr Umzug nach Ihren
+                        Wünschen!</h2>
+                    <p class="text-[#212529] text-sm">Auch nach der Auftragsabwicklung bleiben wir flexibel: Auf Wunsch
+                        können wir Ihren Umzug verschieben oder Änderungen am Auftrag vornehmen. Ihre Zufriedenheit steht
+                        bei uns an erster Stelle!</p>
                 </div>
 
                 <!-- Card 4 -->
                 <div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-center text-center">
                     <img class="w-[60px] mb-4" src="{{ asset('storage/img/Capture2.png') }}" alt="">
-                    <h2 class="text-2xl font-medium text-[#212529]">Transparent</h2>
-                    <p class="text-[#212529] text-sm">Sie können Ihren Umzug stets nachverfolgen und die wichtigsten
-                        Informationen zu Ihrem Umzug online abrufen.</p>
+                    <h2 class="text-2xl font-medium text-[#212529]">Transparent & Nachvollziehbar – Jederzeit den Überblick
+                        behalten!</h2>
+                    <p class="text-[#212529] text-sm">Verfolgen Sie Ihren Umzug in Echtzeit und rufen Sie alle wichtigen
+                        Informationen bequem online ab. Volle Transparenz für eine stressfreie und gut organisierte
+                        Umzugsplanung!</p>
                 </div>
 
             </div>
@@ -122,57 +129,66 @@
                 <!-- Card 1 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-100 hover-bounce">
-                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-1.jpeg') }}"
-                        alt="">
-                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Stressfreiere Privatumzüge</h1>
-                    <p class="mt-3 text-gray-600">Sparen Sie Zeit sowie Nerven und letztlich auch Geld. Wir sind Ihre
-                        Fachleute für Privatumzüge.</p>
+                    <img class="rounded-lg w-full" src="{{ asset('storage/img/b-1.jpeg') }}" alt="">
+                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Stressfreie Privatumzüge – Entspannt umziehen!
+                    </h1>
+                    <p class="mt-3 text-gray-600">Sparen Sie Zeit, Nerven und Geld mit unserem professionellen
+                        Umzugsservice. Wir sind Ihre Experten für reibungslose und stressfreie Privatumzüge!</p>
                 </div>
 
                 <!-- Card 2 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-200 hover-bounce">
                     <img class="rounded-lg w-full" src="{{ asset('storage/img/b-2.jpeg') }}" alt="">
-                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Professionellere Firmenumzüge</h1>
-                    <p class="mt-3 text-gray-600">Die Organisation eines Firmenumzugs ist keine einfache Sache. Damit
-                        ein nahtloser Übergang möglich wird, planen wir Ihren Firmenumzug detailliert.</p>
+                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Professionelle Firmenumzüge – Effizient &
+                        Durchdacht!</h1>
+                    <p class="mt-3 text-gray-600">Ein Firmenumzug erfordert präzise Planung und Organisation. Damit Ihr
+                        Geschäft reibungslos weiterläuft, übernehmen wir die detaillierte Planung und Durchführung – für
+                        einen nahtlosen Übergang ohne Ausfallzeiten!</p>
                 </div>
 
                 <!-- Card 3 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-300 hover-bounce">
                     <img class="rounded-lg w-full" src="{{ asset('storage/img/b-3.jpeg') }}" alt="">
-                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Sicherere Seniorenumzüge</h1>
-                    <p class="mt-3 text-gray-600">Bequem und ohne Sorgen umziehen – ein Plus mit 123Umzugshelfer.
-                        Umziehen geht mit uns ganz einfach.</p>
+                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Sichere Seniorenumzüge – Bequem & Sorgenfrei!</h1>
+                    <p class="mt-3 text-gray-600">Wir machen den Umzug für Senioren einfach und stressfrei. Mit unserem
+                        zuverlässigen Service kümmern wir uns um jedes Detail, damit Sie sich entspannt auf Ihr neues
+                        Zuhause freuen können!</p>
                 </div>
 
                 <!-- Card 4 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-400 hover-bounce">
                     <img class="rounded-lg w-full" src="{{ asset('storage/img/b-4.jpeg') }}" alt="">
-                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Schnellere Haushaltsauflösungen</h1>
-                    <p class="mt-3 text-gray-600">Damit Sie sich über die Haushaltsauflösung keine Gedanken machen müssen,
-                        berät Sie das Team von 123Umzugshelfer gerne bei allen Fragen zur Haushaltsauflösung</p>
+                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Schnelle & Unkomplizierte Haushaltsauflösungen!
+                    </h1>
+                    <p class="mt-3 text-gray-600">Wir übernehmen Ihre Haushaltsauflösung schnell und professionell. Unser
+                        Team steht Ihnen beratend zur Seite und kümmert sich um alle Details – für eine sorgenfreie und
+                        reibungslose Abwicklung!</p>
                 </div>
 
                 <!-- Card 5 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-500 hover-bounce">
                     <img class="rounded-lg w-full" src="{{ asset('storage/img/b-5.jpeg') }}" alt="">
-                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Bessere Lösungen für Behördenumzüge</h1>
-                    <p class="mt-3 text-gray-600">Öffentliche Institutionen stehen mit ihren Dienstleistungen jedem Bürger
-                        offen. Hierbei können die Umzugskosten auch durch etwaige Behörden übernommen werden.</p>
+                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Optimale Lösungen für Behördenumzüge – Effizient &
+                        Strukturiert!</h1>
+                    <p class="mt-3 text-gray-600">Öffentliche Institutionen müssen reibungslos funktionieren – auch während
+                        eines Umzugs. Wir sorgen für eine präzise Planung und Umsetzung, während die Umzugskosten in vielen
+                        Fällen von Behörden übernommen werden können. Kontaktieren Sie uns für eine individuelle Beratung!
+                    </p>
                 </div>
 
                 <!-- Card 6 -->
                 <div
                     class="bg-white text-center rounded-xl shadow-lg cursor-pointer p-5 hover:shadow-2xl transition-all duration-500 animate-fade delay-600 hover-bounce">
                     <img class="rounded-lg w-full" src="{{ asset('storage/img/b-6.jpeg') }}" alt="">
-                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Sicherere Internationale Umzüge</h1>
-                    <p class="mt-3 text-gray-600">Jährlich beschließen rund 100.000 Menschen in Deutschland auszuwandern und
-                        verlegen ihren Wohnsitz ins Ausland. Das kann sowohl berufliche als auch persönliche Gründe haben.
-                        Wir stehen Ihnen zur Seite.</p>
+                    <h1 class="text-2xl mt-3 font-medium text-[#0D3864]">Sichere Internationale Umzüge – Weltweit Gut
+                        Begleitet! </h1>
+                    <p class="mt-3 text-gray-600">Jährlich wandern rund 100.000 Menschen aus Deutschland aus – sei es aus
+                        beruflichen oder persönlichen Gründen. Wir begleiten Sie bei Ihrem internationalen Umzug mit
+                        maßgeschneiderten Lösungen, damit Ihr Neustart stressfrei gelingt!</p>
                 </div>
 
             </div>
@@ -183,11 +199,12 @@
     {{-- Unsere Serviceleistungen section --}}
     <section class="w-full h-[400px] px-4 md:px-8">
         <div class="w-full h-full text-center flex flex-col justify-center items-center gap-6 ">
-            <h1 class="text-3xl md:text-4xl text-white font-bold animate-fade-in">Unsere Serviceleistungen</h1>
+            <h1 class="text-3xl md:text-4xl text-white font-bold animate-fade-in">Unsere Serviceleistungen – Individuell &
+                Effizient! </h1>
             <p class="w-[90%] md:w-[60%] text-white text-lg animate-slide-up">
-                Erfahren Sie hier mehr über unsere optimierten Serviceleistungen und sprechen Sie mit Ihrem persönlichen
-                Umzugsberater über Ihre Fragen und Wünsche. Unser Ziel ist es, schnell und effektiv einen reibungslosen
-                Umzug zu gewährleisten.
+                Erfahren Sie mehr über unsere optimierten Umzugsservices und lassen Sie sich von Ihrem persönlichen
+                Umzugsberater individuell beraten. Unser Ziel: Ein schneller, effizienter und reibungsloser Umzug – ganz
+                nach Ihren Wünschen!
             </p>
             <a href="#"
                 class="border-2 border-white px-6 py-3 rounded text-white text-lg hover:bg-white hover:text-black transition duration-300 animate-pulse">
