@@ -8,7 +8,7 @@
 
     <section class="w-full h-auto ">
         <div class="w-full h-[300px] bg-cover bg-center"
-            style="background-image: url('{{ asset('storage/img/blog-bg.jpg') }}');">
+            style="background-image: url('{{ asset('storage/img/blog-bg.jpeg') }}');">
             <div class="w-full h-full flex justify-center place-items-center">
                 <h1 class="md:text-5xl text-2xl font-bold text-white">Umzugsunternehmen Blog</h1>
             </div>
@@ -25,7 +25,7 @@
             <div class="w-full md:w-[70%]">
                 <div class="flex flex-col gap-3">
                     <img class="w-full md:w-[90%] max-w-full"
-                        src="https://www.123umzugshelfer.de/upload/articles-files/2000/shutterstock_1457837645_copy-min_5b9a3.jpg"
+                        src="{{ asset('storage/img/blog-img.jpeg') }}"
                         alt="">
                     <h2 class="font-medium text-[#03293F] text-lg md:text-xl">Adressänderung Umzug</h2>
                     <p class="w-full md:w-[90%] text-sm md:text-base">Adressänderung Umzug Obwohl ein Umzug ist in der Regel mit sehr viel Planung und Arbeit verbunden

@@ -85,7 +85,7 @@
 
             <!-- Image -->
             <div class="w-full sm:w-[90%] md:w-[45%]">
-                <img class="w-full h-auto object-cover rounded-lg " src="{{ asset('storage/img/map.jpg') }}" alt="Karte">
+                <img class="w-full h-auto object-cover rounded-lg " src="{{ asset('storage/img/map.jpeg') }}" alt="Karte">
             </div>
         </div>
     </section>
