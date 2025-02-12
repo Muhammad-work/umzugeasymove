@@ -70,7 +70,7 @@
     }
 
     body {
-        background-image: url('{{ asset('storage/img/features-background.jpg') }}');
+        background-image: url('{{ asset('storage/img/body-baner.jpeg') }}');
         background-size: cover;
         /* Image poori screen cover karegi */
         background-position: center;

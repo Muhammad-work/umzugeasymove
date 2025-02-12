@@ -181,8 +181,8 @@
     {{-- card section  --}}
 
     {{-- Unsere Serviceleistungen section --}}
-    <section class="w-full h-[400px] px-4 md:px-8 ">
-        <div class="w-full h-full text-center flex flex-col justify-center items-center gap-6">
+    <section class="w-full h-[400px] px-4 md:px-8">
+        <div class="w-full h-full text-center flex flex-col justify-center items-center gap-6 ">
             <h1 class="text-3xl md:text-4xl text-white font-bold animate-fade-in">Unsere Serviceleistungen</h1>
             <p class="w-[90%] md:w-[60%] text-white text-lg animate-slide-up">
                 Erfahren Sie hier mehr über unsere optimierten Serviceleistungen und sprechen Sie mit Ihrem persönlichen
