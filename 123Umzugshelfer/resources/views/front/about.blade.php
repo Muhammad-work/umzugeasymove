@@ -7,7 +7,7 @@
     {{-- about hero section --}}
     <section class="w-full h-auto ">
         <div class="w-full md:h-[500px]">
-            <img class="w-full h-full" src="{{ asset('storage/img/about-img.jpg') }}" alt="">
+            <img class="w-full h-full" src="{{ asset('storage/img/about-img.jpeg') }}" alt="">
         </div>
 
         <div class="w-full h-auto py-4 bg-[#0968B7] flex flex-col justify-center gap-5">
@@ -31,7 +31,7 @@
         <div class="w-full h-full bg-white flex flex-wrap justify-center gap-5 py-8 px-4">
             <!-- Image Container -->
             <div class="w-full sm:w-[90%] md:w-[45%] max-w-full">
-                <img class="w-full h-auto object-cover" src="{{ asset('storage/img/about-img-company.jpg') }}"
+                <img class="w-full h-auto object-cover" src="{{ asset('storage/img/about-img-company.jpeg') }}"
                     alt="">
             </div>
 
@@ -62,7 +62,6 @@
     {{-- about section --}}
 
     {{-- Wir sind, wo sie sind section --}}
-
     <section class="w-full h-auto bg-white">
         <div class="w-full h-full bg-white flex flex-wrap justify-center gap-5 place-items-center py-4 px-4">
             <!-- Text Content -->
@@ -90,7 +89,5 @@
             </div>
         </div>
     </section>
-
-
     {{-- Wir sind, wo sie sind section --}}
 @endsection
