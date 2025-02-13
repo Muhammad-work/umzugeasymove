@@ -264,7 +264,7 @@
                 </div>
 
                 <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="https://www.123umzugshelfer.de/upload/pages-files/1000/1_9fb1b.jpg"
+                    src="{{ asset('storage/img/img-10.PNG') }}"
                     alt="Umzugsunternehmen Berlin">
 
                 <div>
