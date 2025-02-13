@@ -26,7 +26,6 @@
     {{-- about hero section --}}
 
     {{-- about section --}}
-
     <section class="w-full h-auto bg-white">
         <div class="w-full h-full bg-white flex flex-wrap justify-center gap-5 py-8 px-4">
             <!-- Image Container -->
@@ -57,7 +56,6 @@
             </div>
         </div>
     </section>
-
     {{-- about section --}}
 
     {{-- Wir sind, wo sie sind section --}}

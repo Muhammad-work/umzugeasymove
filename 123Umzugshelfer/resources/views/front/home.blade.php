@@ -311,7 +311,6 @@
     </section>
     {{-- Wie erhalte ich Hilfe von 123Umzugshelfer? section --}}
 
-
     {{-- 123Umzugshelfer Erfahrungen section --}}
     <section class="w-full min-h-screen bg-[#EEF4F7] p-6">
         <h1 class="text-3xl text-center py-12 text-[#073360] font-bold">umzugeasymove Erfahrungen</h1>

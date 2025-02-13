@@ -5,7 +5,6 @@
 
 @section('front.home')
     {{-- blog hero section --}}
-
     <section class="w-full h-auto ">
         <div class="w-full h-[300px] bg-cover bg-center"
             style="background-image: url('{{ asset('storage/img/blog-bg.jpeg') }}');">
@@ -14,12 +13,9 @@
             </div>
         </div>
     </section>
-
     {{-- blog hero section --}}
 
-
     {{-- blog section --}}
-
     <section class="w-full h-auto bg-white">
         <div class="w-[90%] h-full bg-white flex flex-col md:flex-row justify-center gap-3 mx-auto py-8">
             <div class="w-full md:w-[70%]">
@@ -71,7 +67,5 @@
             </div>
         </div>
     </section>
-
-
     {{-- blog section --}}
 @endsection
