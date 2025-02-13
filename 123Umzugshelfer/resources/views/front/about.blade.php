@@ -39,13 +39,12 @@
             <div class="w-full sm:w-[90%] md:w-[45%] flex flex-col gap-4 text-center md:text-left">
                 <h1 class="text-3xl font-medium text-[#425168]">Umzugeasymove</h1>
                 <p class="text-xl text-[#425168]">
-                    Heute ist 123 Umzugshelfer seit über 5 Jahren im Geschäft. Der Aufstieg von 123 Umzugshelfer an die
-                    Spitze
-                    der deutschen Umzugsbranche ist das Ergebnis unseres unermüdlichen Einsatzes. Jährlich bewegt 123
-                    Umzugshelfer über 15.000 Menschen sowohl aus ihrer Wohnung als auch aus ihrem Büro nicht nur
-                    deutschlandweit, sondern auch europaweit. Egal wohin unsere Kunden umziehen oder welches Umzugsvolumen
-                    sie mitnehmen, sie können die gleiche Servicequalität von 123Umzugshelfer und unseren Umzugsspezialisten
-                    erwarten.
+                    Seit über 5 Jahren steht UmzugeAsyMove für zuverlässige und professionelle Umzüge. Unser unermüdlicher
+                    Einsatz hat uns an die Spitze der deutschen Umzugsbranche gebracht. Jährlich begleiten wir über 15.000
+                    Umzüge – sei es privat oder geschäftlich, deutschlandweit oder europaweit.
+
+                    Egal, wohin Ihr Weg führt oder wie groß Ihr Umzugsvolumen ist – mit UmzugeAsyMove können Sie stets die
+                    höchste Servicequalität und die Expertise unserer Umzugsspezialisten erwarten.
                 </p>
                 <div class="flex flex-col items-center md:items-start">
                     <p class="text-[#425168] flex items-center"><i class="fa-solid fa-check text-[#425168] mr-2"></i>
@@ -66,26 +65,28 @@
         <div class="w-full h-full bg-white flex flex-wrap justify-center gap-5 place-items-center py-4 px-4">
             <!-- Text Content -->
             <div class="w-full sm:w-[90%] md:w-[45%] flex flex-col gap-4 text-center md:text-left">
-                <h1 class="text-2xl font-medium text-[#425168]">Wir sind, wo sie sind</h1>
+                <h1 class="text-2xl font-medium text-[#425168]">Wir sind, wo Sie sind – Ihr Umzug in besten Händen!</h1>
                 <p class="text-lg text-[#425168]">
-                    Ein Umzug erfordert eine detailgenaue Planung und eine perfekte Organisation. Durch langjährige Erfahrung
-                    sind wir in der Lage, Ihren privaten Umzug oder Firmenumzug in kürzester Zeit und für Sie vollkommen
-                    stressfrei abzuwickeln. Mit Fachkompetenz, Zuverlässigkeit und hohen Qualitätsstandards sorgen wir für
-                    einen reibungslosen Ablauf Ihres Umzugs.
+                    Ein erfolgreicher Umzug erfordert präzise Planung und perfekte Organisation. Dank unserer langjährigen
+                    Erfahrung wickeln wir private und gewerbliche Umzüge schnell, effizient und vollkommen stressfrei für
+                    Sie ab.
                 </p>
                 <p class="text-lg text-[#425168]">
-                    umzugeasymove gehört zu den ausgezeichneten Umzugsunternehmen in Detmold. Egal, ob innerhalb der Stadt,
-                    außerhalb oder europaweit – wir sind für Sie da.
+                    Mit Fachkompetenz, Zuverlässigkeit und höchsten Qualitätsstandards garantieren wir einen reibungslosen
+                    Ablauf. UmzugeAsyMove zählt zu den führenden Umzugsunternehmen in Detmold – egal, ob Sie innerhalb der
+                    Stadt, deutschlandweit oder europaweit umziehen, wir sind Ihr verlässlicher Partner.
                 </p>
                 <p class="text-lg text-[#425168]">
-                    Unsere Umzugshelfer werden fachlich sowie persönlich weitergebildet, um Ihnen einen einwandfreien und
-                    zuverlässigen Umzug zu garantieren. Durch unseren besonderen Teamgeist schaffen wir ein friedliches Arbeitsumfeld.
+                    Unsere Umzugshelfer werden sowohl fachlich als auch persönlich geschult, um Ihnen stets einen
+                    einwandfreien und professionellen Service zu bieten. Unser starker Teamgeist sorgt für ein harmonisches
+                    Arbeitsumfeld und ein angenehmes Umzugserlebnis.
                 </p>
             </div>
 
             <!-- Image -->
             <div class="w-full sm:w-[90%] md:w-[45%]">
-                <img class="w-full h-auto object-cover rounded-lg " src="{{ asset('storage/img/map.jpeg') }}" alt="Karte">
+                <img class="w-full h-auto object-cover rounded-lg " src="{{ asset('storage/img/map.jpeg') }}"
+                    alt="Karte">
             </div>
         </div>
     </section>
