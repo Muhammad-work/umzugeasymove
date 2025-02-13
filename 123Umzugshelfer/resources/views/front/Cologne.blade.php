@@ -54,25 +54,8 @@
 
     <section class="w-full h-auto bg-[#FFFFFF] py-10">
         <div class="w-full max-w-screen-lg mx-auto px-4 md:px-6 py-8 rounded-lg">
-            {{-- <h2 class="text-[#073360] text-2xl md:text-3xl font-bold">Umzugsleistungen Hannover</h2>
-            <p class="text-base md:text-lg leading-relaxed mt-4">
-                Umzugsleistungen Hannover bietet ein umfangreiches Umzugsservice Angebot für Ihren Umzug nach Hannover und
-                Umgebung. Auch das Beantragen einer Halteverbotszone gehört zu unseren Serviceleistungen im
-                Umzugsunternehmen Hannover. Nachdem Sie die Umzugsanfrage gestellt haben und sich für diese Zeit für unser
-                professionelles Umzugsunternehmen in Hannover entschieden haben, geht es im nächsten Schritt, nach der
-                detaillierten Auflistung Ihrer Umzugsgüter, an die einzelnen Serviceleistungen, die wir über unsere
-                langjährige Erfahrung als Umzugsunternehmen in Hannover und Umgebung auf die individuellen Bedürfnisse
-                unserer Kunden abgestimmt und optimiert haben. Um für Sie den besten Service und das beste Paket
-                auszuwählen, ist eine ausführliche Absprache mit Ihrem persönlichen Umzugsberater nötig. Unter anderem ist
-                es von großer Bedeutung das richtige Fahrzeug mit der optimalen Größe und die Anzahl der Umzugshelfer
-                einzuplanen, um einen schadenfreien Möbeltransport zu gewährleisten. Unser Umzugsunternehmen Hannover bietet
-                jedem Kunden ein individuelles Angebot, denn wir, als Ihr Umzugsunternehmen Hannover, möchten Ihnen ein
-                sorgenfreies Umziehen ermöglichen. Qualität und professionelle Serviceleistungen gehören in unserem
-                Umzugsunternehmen Hannover dazu.
-            </p> --}}
-
             <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="https://www.123umzugshelfer.de/upload/pages-files/1000/3_0fd1d.jpg" alt="Umzugsunternehmen Berlin">
+                src="{{ asset('storage/img/img-5.jpeg') }}" alt="Umzugsunternehmen Berlin">
 
             <div class="mt-8 flex flex-col gap-8">
                 <div>

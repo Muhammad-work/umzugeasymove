@@ -36,7 +36,7 @@
             </p>
 
             <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="https://www.123umzugshelfer.de/upload/pages-files/1000/131_4d550.jpg" alt="Umzugsunternehmen Berlin">
+                src="{{ asset('storage/img/img-7.jpeg') }}" alt="Umzugsunternehmen Berlin">
 
             <p class="text-lg text-[#34495E] leading-relaxed">
                 123Umzugshelfer organisiert und leistet Umzüge weltweit. Durch die langjährige Erfahrung in der
@@ -70,7 +70,7 @@
             </p>
 
             <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="https://www.123umzugshelfer.de/upload/pages-files/1000/new_form_fed4d.jpg"
+                src="{{ asset('storage/img/img-8.jpeg') }}"
                 alt="Umzugsunternehmen Berlin">
 
             <div class="mt-8 flex flex-col gap-8">
@@ -113,7 +113,7 @@
                 </div>
 
                 <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="https://www.123umzugshelfer.de/upload/pages-files/1000/shutterstock_525637369_19080.jpg"
+                    src="{{ asset('storage/img/img-9.PNG') }}"
                     alt="Umzugsunternehmen Berlin">
 
                 <div>
