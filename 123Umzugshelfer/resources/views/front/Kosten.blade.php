@@ -35,8 +35,8 @@
                 nach Europa oder sogar nach Übersee.
             </p>
 
-            <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="{{ asset('storage/img/img-7.jpeg') }}" alt="Umzugsunternehmen Berlin">
+            <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md" src="{{ asset('storage/img/img-7.jpeg') }}"
+                alt="Umzugsunternehmen Berlin">
 
             <p class="text-lg text-[#34495E] leading-relaxed">
                 123Umzugshelfer organisiert und leistet Umzüge weltweit. Durch die langjährige Erfahrung in der
@@ -69,8 +69,7 @@
                 der im folgenden Text erläuterten Faktoren können die Kosten für Umzüge stark variieren.
             </p>
 
-            <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="{{ asset('storage/img/img-8.jpeg') }}"
+            <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md" src="{{ asset('storage/img/img-8.jpeg') }}"
                 alt="Umzugsunternehmen Berlin">
 
             <div class="mt-8 flex flex-col gap-8">
@@ -112,8 +111,7 @@
                     </p>
                 </div>
 
-                <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="{{ asset('storage/img/img-9.PNG') }}"
+                <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md" src="{{ asset('storage/img/img-9.PNG') }}"
                     alt="Umzugsunternehmen Berlin">
 
                 <div>
@@ -263,8 +261,7 @@
                     </p>
                 </div>
 
-                <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="{{ asset('storage/img/img-10.PNG') }}"
+                <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md" src="{{ asset('storage/img/img-10.PNG') }}"
                     alt="Umzugsunternehmen Berlin">
 
                 <div>
@@ -451,11 +448,6 @@
                         gerne alle Fragen beantworten.
                     </p>
                 </div>
-
-                {{-- <div>
-                    <h2 class="text-[#073360] text-2xl md:text-3xl font-bold text-center">Erkundigen Sie sich heute noch
-                        nach einem individuellen Angebot</h2>
-                </div> --}}
             </div>
         </div>
     </section>
