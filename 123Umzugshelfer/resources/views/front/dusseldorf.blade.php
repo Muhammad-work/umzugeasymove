@@ -74,7 +74,7 @@
             </p>
 
             <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="https://www.123umzugshelfer.de/upload/pages-files/1000/logo_add_dusseldorf_copy_7e4af.jpg"
+                src="{{ asset('storage/img/img-13.PNG') }}"
                 alt="Umzugsunternehmen Berlin">
 
             <div class="mt-8 flex flex-col gap-8">
@@ -234,11 +234,6 @@
                         erhalten.
                     </p>
                 </div>
-
-                {{-- <div>
-                    <h2 class="text-[#073360] text-2xl md:text-3xl font-bold text-center">Erkundigen Sie sich heute noch
-                        nach einem individuellen Angebot</h2>
-                </div> --}}
             </div>
         </div>
     </section>

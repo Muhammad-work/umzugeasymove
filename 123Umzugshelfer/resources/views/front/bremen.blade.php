@@ -14,36 +14,6 @@
     @yield('fornt.hero')
     {{-- hero section --}}
 
-
-    {{-- Umzugsunternehmen Berlin content section --}}
-
-    {{-- <section class="w-full h-auto bg-[#EEF4F7] px-4 md:px-6 py-12">
-        <div class="w-full max-w-screen-lg mx-auto flex flex-col gap-6">
-            <h1 class="text-center text-xl md:text-2xl lg:text-4xl text-[#34495E] font-bold">
-                Umzugsunternehmen Frankfurt am Main
-            </h1>
-            <p class="text-lg text-[#34495E] leading-relaxed">
-                Wer sich entscheidet nach Frankfurt am Main umzuziehen, ist bei dem Umzugsunternehmen Frankfurt am Main
-                bestens aufgehoben, mit einem umfangreichen Umzugsservice und er weiß, dass diese Stadt nicht nur eine
-                Bankenmetropole ist. Als größte Stadt Hessens, hat Frankfurt am Main viel mehr zu bieten. Kaum glaubt man
-                die Stadt zu kennen, entdeckt man komplett neue Seiten. Denn diese Stadt lebt. Wenn Sie nicht gerade aus
-                beruflichen Gründen nach Frankfurt am Main oder Umgebung umziehen, ist ein weiterer Hauptgrund die
-                gesteigerte Lebensqualität. Bis man jedoch die neu gewonnene Lebensqualität genießen kann, ist im
-                Allgemeinen die Umzugsphase eine etwas stressige Zeit. Genau da kommen wir als Umzugsunternehmen Frankfurt
-                am Main ins Spiel und übernehmen alle anfallenden Aufgaben von A bis Z und sorgen für den sicheren Transport
-                Ihrer Umzugsgüter aus Ihrer alten Wohnung in Ihr neues Heim.Sie können währenddessen Ihre Behördengänge
-                organisieren und Ihren Papierkrieg bewältigen. Wir, als Ihre Umzugsfirma, haben Ihnen hier zusätzlich die
-                Bürgerbüros der verschiedenen Stadtbezirke aufgelistet, wo Sie Ihre An-, Ab- und Ummeldungen durchführen
-                können Link_ Bürgerämter | Stadt Frankfurt am Main. Informieren Sie sich bitte vorab, ob Sie bei der
-                persönlichen Vorsprache einen Termin vereinbaren müssen oder nicht. In manchen Fällen können Sie diese
-                Meldungen auch Online durchführen.
-            </p>
-        </div>
-    </section> --}}
-
-    {{-- Umzugsunternehmen Berlin content section --}}
-
-
     {{-- Günstiges Umzugsunternehmen Berlin section --}}
 
     <section class="w-full h-auto bg-[#FFFFFF] py-10">
@@ -71,7 +41,7 @@
 
 
             <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="https://www.123umzugshelfer.de/upload/pages-files/1000/pexels-ketut-subiyanto-4247735_copy_709e4.jpg"
+                src="{{ asset('storage/img/img-15.PNG') }}"
                 alt="Umzugsunternehmen Berlin">
 
             <div class="mt-8 flex flex-col gap-8">
@@ -114,7 +84,7 @@
                 </div>
 
                 <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="https://www.123umzugshelfer.de/upload/pages-files/1000/5_22f6e.jpg" alt="Umzugsunternehmen Berlin">
+                    src="{{ asset('storage/img/img-16.PNG') }}" alt="Umzugsunternehmen Berlin">
 
 
                 <div>
@@ -141,7 +111,7 @@
                 </div>
 
                 <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="https://www.123umzugshelfer.de/upload/pages-files/1000/pexels-artem-podrez-5025510_copy_bad54.jpg"
+                    src="{{ asset('storage/img/img-17.PNG') }}"
                     alt="Umzugsunternehmen Berlin">
 
 
@@ -203,7 +173,7 @@
                 </div>
 
                 <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="https://www.123umzugshelfer.de/upload/pages-files/1000/matthew-hamilton-twwiq9mxprg-unsplash_copy_6df05.jpg"
+                    src="{{ asset('storage/img/img-18.PNG') }}"
                     alt="Umzugsunternehmen Berlin">
 
 

@@ -9,14 +9,11 @@
             background: white;
         }
     </style>
-
     {{-- hero section --}}
     @yield('fornt.hero')
     {{-- hero section --}}
 
-
     {{-- Umzugsunternehmen Berlin content section --}}
-
     <section class="w-full h-auto bg-[#EEF4F7] px-4 md:px-6 py-12">
         <div class="w-full max-w-screen-lg mx-auto flex flex-col gap-6">
             <h1 class="text-center text-xl md:text-2xl lg:text-4xl text-[#34495E] font-bold">
@@ -40,12 +37,9 @@
             </p>
         </div>
     </section>
-
     {{-- Umzugsunternehmen Berlin content section --}}
 
-
     {{-- Günstiges Umzugsunternehmen Berlin section --}}
-
     <section class="w-full h-auto bg-[#FFFFFF] py-10">
         <div class="w-full max-w-screen-lg mx-auto px-4 md:px-6 py-8 rounded-lg">
             <h2 class="text-[#073360] text-2xl md:text-3xl font-bold">Umzugfirma in Frankfurt am Main</h2>
@@ -67,8 +61,7 @@
 
             <h2 class="text-[#073360] text-2xl md:text-3xl font-bold">Umzugsservice Frankfurt am Main</h2>
 
-            <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="https://www.123umzugshelfer.de/upload/pages-files/1000/with_logo_web_photo-min_d5254.jpg"
+            <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md" src="{{ asset('storage/img/img-14.PNG') }}"
                 alt="Umzugsunternehmen Berlin">
 
             <div class="mt-8 flex flex-col gap-8">
@@ -210,6 +203,5 @@
             </div>
         </div>
     </section>
-
     {{-- Günstiges Umzugsunternehmen Berlin section --}}
 @endsection

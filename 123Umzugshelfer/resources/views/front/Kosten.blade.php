@@ -306,7 +306,7 @@
                 </div>
 
                 <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="https://www.123umzugshelfer.de/upload/pages-files/1000/3_4a908.jpg"
+                    src="{{ asset('storage/img/img-11.PNG') }}"
                     alt="Umzugsunternehmen Berlin">
 
                 <div>
@@ -342,7 +342,7 @@
                 </div>
 
                 <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                    src="https://www.123umzugshelfer.de/upload/pages-files/1000/shutterstock_1874736826_abab6.jpg"
+                    src="{{ asset('storage/img/img-12.jpg') }}"
                     alt="Umzugsunternehmen Berlin">
 
                 <div>
