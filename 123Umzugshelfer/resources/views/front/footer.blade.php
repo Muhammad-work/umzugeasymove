@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="mt-3 px-10 text-center">
-        <p>Copyright @ 2025 | 123Umzugshelfer</p>
+        <p>Copyright @ 2025 | umzugeasymove</p>
     </div>
 </section>
 @endsection
