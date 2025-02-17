@@ -23,17 +23,13 @@
             </div>
             <div class="flex flex-col items-center md:items-start gap-2">
                 <p class="font-medium flex items-center gap-2">
-                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> No subcontractors
-                </p>
+                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> Keine Subunternehmer</p>
                 <p class="font-medium flex items-center gap-2">
-                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> 100% Own Employees
-                </p>
+                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> 100% Eigene Mitarbeiter</p>
                 <p class="font-medium flex items-center gap-2">
-                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> Fixed price bookable
-                </p>
+                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> Festpreis Buchbar </p>
                 <p class="font-medium flex items-center gap-2">
-                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> Regionally near you!
-                </p>
+                    <i class="fa-solid fa-check bg-[#06BF8B] p-2 text-white rounded-full"></i> Regional bei Ihnen!</p>
             </div>
         </div>
         <div class="lg:w-[40%] w-full">

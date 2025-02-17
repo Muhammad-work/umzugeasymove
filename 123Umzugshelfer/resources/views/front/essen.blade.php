@@ -59,7 +59,7 @@
 
 
             <img class="w-full max-w-3xl mx-auto mt-6 rounded-lg shadow-md"
-                src="https://www.123umzugshelfer.de/upload/pages-files/1000/adding_psd_copy-min_3e694.jpg"
+                src="{{ asset('storage/img/img-21.PNG') }}"
                 alt="Umzugsunternehmen Berlin">
 
             <div class="mt-8 flex flex-col gap-8">
