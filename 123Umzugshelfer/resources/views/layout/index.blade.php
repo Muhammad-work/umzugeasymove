@@ -339,26 +339,7 @@
     @yield('fornt.footer')
 
     {{-- footer section --}}
-
-
-
-    {{-- <script>
-        document.getElementById("menu-toggle").addEventListener("click", function() {
-            let menu = document.getElementById("menu");
-            menu.classList.toggle("hidden");
-        });
-
-        // Active Menu Item Change
-        let menuItems = document.querySelectorAll('.menu-item');
-
-        function changeActiveMenu(event) {
-            menuItems.forEach(item => item.classList.remove('active'));
-            event.target.classList.add('active');
-        }
-        menuItems.forEach(item => {
-            item.addEventListener('click', changeActiveMenu);
-        });
-    </script> --}}
+    
     <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.39/dist/lenis.min.js"></script>
     <script>
         // scroll
